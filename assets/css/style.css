@@ -84,3 +84,20 @@ body {
     -webkit-text-stroke: 1.3px black;
     font-size: 1.5rem;
 }
+
+/** Css Styling for Game.html**/
+
+#question-container {
+    text-align: center;
+}
+
+#question-num {
+    color: #F5FBEF;
+    font-weight: bold;
+    -webkit-text-stroke: 1.3px black;
+    font-size: 3rem;
+    background-color: #FA8072;
+    border-bottom: 3px solid black;
+    padding: 1.5rem 0;
+    margin-bottom: 3rem;
+}
