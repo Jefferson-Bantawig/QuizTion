@@ -75,7 +75,7 @@ body {
     box-shadow: 0px 5px 3px black;
 }
 
-.btn {
+.btn-anchor {
     font-family: "Inter", "raleway", "Jost", sans-serif;
     color: #F5FBEF;
     font-weight: bold;
@@ -89,6 +89,8 @@ body {
 
 #question-container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #timer-section {
@@ -100,19 +102,21 @@ body {
     border-bottom: 3px solid black;
     margin-bottom: 3rem;
 }
+
 #question-num {
     color: #FA8072;
-    font-size: 4rem;
+    font-size: 3rem;
     -webkit-text-stroke: 1.3px black;
     text-shadow: 3px 4px black;
     margin-bottom: 1rem;
 }
+
 #question {
     font-weight: bold;
     -webkit-text-stroke: 1.3px black;
     color: #F5FBEF;
-    font-size: 2.5rem;
-    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .choices {
@@ -136,6 +140,22 @@ body {
     font-weight: bold;
 }
 
+#buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem .5rem;
+}
+
+.btn {
+    background-color: #FA8072;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: .5rem;
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
@@ -154,7 +174,7 @@ body {
         -webkit-text-stroke: 1.5px black;
     }
 
-    .btn {
+    .btn-anchor {
         -webkit-text-stroke: 1.6px black;
         font-size: 2rem;
     }
