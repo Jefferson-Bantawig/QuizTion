@@ -128,3 +128,37 @@ body {
     align-self: center;
     font-weight: bold;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+
+    #title-area {
+        max-width: 900px;
+    }
+
+    #main-heading {
+        font-size: 5rem;
+    }
+
+    #main-heading-text {
+        font-size: 2rem;
+        color: #F5FBEF;
+        -webkit-text-stroke: 1.5px black;
+    }
+
+    .btn {
+        -webkit-text-stroke: 1.6px black;
+        font-size: 2rem;
+    }
+
+    .game-menu {
+        cursor: pointer;
+        transition: .15s;
+    }
+
+    .game-menu:hover {
+        transform: translateY(3px);
+        opacity: .9;
+    }
+}
