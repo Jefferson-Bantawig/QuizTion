@@ -26,3 +26,28 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+#title-area {
+    background-color: #FA8072;
+    width: 95vw;
+    min-height: 10vw;
+    border: 5px solid black;
+    border-radius: 15px;
+    color: #F5FBEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding: 1em;
+    position: relative;
+    top: 50px;
+    box-shadow: 0px 5px 10px black;
+}
+
+#game-menu-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
