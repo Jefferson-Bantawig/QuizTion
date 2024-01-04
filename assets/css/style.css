@@ -64,3 +64,23 @@ body {
     color: black;
     font-weight: bold;
 }
+
+.game-menu {
+    background-color: #FA8072;
+    border: 3px solid black;
+    margin: 2rem auto;
+    padding: 1em 1.2em;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 3px black;
+}
+
+.btn {
+    font-family: "Inter", "raleway", "Jost", sans-serif;
+    color: #F5FBEF;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    -webkit-text-stroke: 1.3px black;
+    font-size: 1.5rem;
+}
