@@ -1,0 +1,28 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:wght@900&family=Rubik:wght@800&display=swap');
+
+/* General Styling */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Inter", "raleway", "Jost", sans-serif;
+}
+
+body {
+    background-color: #008080;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 5px solid black;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
