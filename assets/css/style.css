@@ -19,12 +19,9 @@ body {
     border: 5px solid black;
 }
 
-#container {
+#main-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 #title-area {
@@ -87,7 +84,7 @@ body {
 
 /** Css Styling for Game.html**/
 
-#question-container {
+#questions-container {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -119,12 +116,21 @@ body {
     margin-bottom: 2rem;
 }
 
+.choices-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    max-width: 500px;
+}
+
 .choices {
     display: flex;
     background-color: #F5FBEF;
     text-align: center;
     margin: 1rem .5rem;
     border: 2px solid black;
+    width: 100%;
 }
 
 .letter {
@@ -195,5 +201,10 @@ body {
     .game-menu:hover {
         transform: translateY(3px);
         opacity: .9;
+    }
+
+    .choices {
+        width: 500px;
+        align-self: center;
     }
 }
