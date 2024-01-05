@@ -12,17 +12,18 @@
 }
 
 body {
-    background-color: #008080;
+    
+}
+#container {
     display: flex;
     flex-direction: column;
+    background-color: #008080;
     min-height: 100vh;
     border: 5px solid black;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#main-container {
-    display: flex;
-    flex-direction: column;
-}
 
 #title-area {
     background-color: #FA8072;
@@ -83,6 +84,14 @@ body {
 }
 
 /** Css Styling for Game.html**/
+#main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #008080;
+    min-height: 100vh;
+    border: 5px solid black;
+    justify-content: space-between;
+}
 
 #questions-container {
     text-align: center;
